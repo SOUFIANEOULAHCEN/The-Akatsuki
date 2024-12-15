@@ -1,26 +1,3 @@
-// import Card from "./Card";
-
-// export default function ServicesSection() {
-//   return (
-//     <section className="bg-black w-full flex flex-col gap-3 h-auto px-[10%] py-[5%] ">
-//       <div>
-//         <div className="flex items-center leading-tight ">
-//           <span className="border border-gray-100 w-16 h-2 bg-gray-100"></span>
-//           <h1 className="text-gray-100 text-5xl font-bold mx-2">Services.</h1>
-//         </div>
-//         <p className="text-wine text-lg">OUR SERVICES FOR CLIENTS</p>
-//       </div>
-//       {/* cards section */}
-//       <div>
-//         <Card></Card>
-//       </div>
-//     </section>
-//   );
-// }
-
-
-
-
 import Card from "./Card";
 import ChessKingIcon from "./ChessKingIcon";
 import KunaiIcon from "./KunaiIcon";
