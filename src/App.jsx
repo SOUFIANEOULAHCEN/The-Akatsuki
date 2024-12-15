@@ -1,8 +1,13 @@
+import Hero from "./Hero";
+import "./App.css";
+import Features from "./Features";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl text-red-800">ikhan</h1>
-    </>
+    <div className="bg-black px-10 py-5 bar">
+      <Hero/>
+      <Features/>
+    </div>
   );
 }
 
