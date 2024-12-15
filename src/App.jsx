@@ -1,17 +1,16 @@
+import Hero from "./Hero";
 
-    import Hero from "./components/Hero";
-
-import Features from "./components/Features";
+import Features from "./Features";
 import ServicesSection from "./components/ServicesSection";
 
 function App() {
   return (
     <div className="bg-black px-10 py-5 bar">
-       <Hero/>
-       <Features/>
-       <ServicesSection />
-     </div>
-// >>>>>>> main
+      <Hero />
+      <Features />
+      <ServicesSection />
+    </div>
+    // >>>>>>> main
   );
 }
 
